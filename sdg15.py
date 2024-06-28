@@ -2,12 +2,6 @@ import pandas as pd
 import plotly.express as px
 import streamlit as st
 import plotly.graph_objects as go
-import tkinter
-window=tkinter.Tk();
-window.geometry('400x300')
-bt=tkinter.Button(window,text='target value',bg='red',fg='black')
-bt.grid(column=1,row=1)
-window.mainloop()
 st.title("Dashboard")
 
 @st.cache_data
